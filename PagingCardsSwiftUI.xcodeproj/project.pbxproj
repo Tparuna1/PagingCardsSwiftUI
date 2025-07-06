@@ -35,16 +35,6 @@
 			path = PagingCardsSwiftUI;
 			sourceTree = "<group>";
 		};
-		B470B1F52E1AC2BC003A402E /* PagingCardsSwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PagingCardsSwiftUITests;
-			sourceTree = "<group>";
-		};
-		B470B1FF2E1AC2BC003A402E /* PagingCardsSwiftUIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PagingCardsSwiftUIUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				B470B1E32E1AC2BB003A402E /* PagingCardsSwiftUI */,
-				B470B1F52E1AC2BC003A402E /* PagingCardsSwiftUITests */,
-				B470B1FF2E1AC2BC003A402E /* PagingCardsSwiftUIUITests */,
 				B470B1E22E1AC2BB003A402E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				B470B1F42E1AC2BC003A402E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B470B1F52E1AC2BC003A402E /* PagingCardsSwiftUITests */,
-			);
 			name = PagingCardsSwiftUITests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				B470B1FE2E1AC2BC003A402E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B470B1FF2E1AC2BC003A402E /* PagingCardsSwiftUIUITests */,
 			);
 			name = PagingCardsSwiftUIUITests;
 			packageProductDependencies = (
